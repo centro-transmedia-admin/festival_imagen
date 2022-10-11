@@ -1,0 +1,19 @@
+.container {
+    background-color: var(--cafe-oscuro);
+    color: var(--color-claro);
+    min-height: 100vh;
+    /* width: 100vw; */
+}
+
+.content {
+    width: 90%;
+    max-width: 1000px;
+    display: grid;
+    gap: 20px;
+    grid-template-areas:
+        "rotulo     rotulo      rotulo"
+        "contenido  contenido   contenido"
+        "footer     footer      footer";
+
+    margin: auto;
+}

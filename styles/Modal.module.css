@@ -1,0 +1,77 @@
+.modal {
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+}
+
+.modal>.header {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+    color: var(--cafe-oscuro);
+    font-weight: bold;
+}
+
+.modal>.content {
+    width: 100%;
+    padding: 10px 5px;
+    color: var(--cafe-oscuro);
+    font-weight: 400;
+    margin-top: 0.5rem;
+}
+
+.content h2 {
+    font-size: 25px;
+    font-weight: 100;
+    color: var(--cafe-oscuro);
+}
+
+.content img {
+    width: 25%;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 16px;
+}
+
+.content h3 {
+    font-weight: bold;
+}
+
+.modal>.actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+}
+
+.modal>.close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: 0px;
+    top: 0px;
+    font-size: 24px;
+    background-color: var(--cafe-oscuro);
+    color: var(--color-claro);
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+}
+
+.button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    background-color: var(--cafe-oscuro);
+    color: var(--color-claro);
+    padding: 5px;
+    border-radius: 6px;
+    margin-top: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,46 @@
+.content {
+    grid-area: contenido;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 18rem), 1fr));
+}
+
+.concert {
+    color: var(--cafe-oscuro);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.line {
+    width: 100%;
+    height: 0.1rem;
+    border: 0 none;
+    background-color: var(--cafe-oscuro);
+    margin-top: 1.5rem;
+}
+
+.concert a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    display: inline-block;
+    color: var(--color-claro);
+    background-color: var(--naranja-primario);
+    padding: 5px;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+
+.concierto a:hover {
+    background-color: var(--cafe-oscuro);
+}
+
+.subtitle {
+    font-style: italic;
+    font-weight: 400;
+    white-space: break-spaces;
+}
+
+.bold {
+    font-weight: bold;
+}

@@ -1,0 +1,64 @@
+.container {
+    background-color: var(--color-claro);
+    color: var(--cafe-oscuro);
+    height: auto;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.content {
+    width: 90%;
+    max-width: 1000px;
+    min-height: 320px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas:
+        "rotulo     rotulo      rotulo"
+        "titulo     titulo      titulo"
+        "contenido  contenido   contenido"
+        "footer     footer      footer";
+
+    margin: auto;
+}
+
+.rotulo {
+    grid-area: rotulo;
+    margin-top: 30px;
+}
+
+.back {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1em;
+}
+
+.back a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    background-color: var(--cafe-oscuro);
+    color: var(--color-claro);
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.card {
+    background-color: var(--naranja-primario);
+    color: var(--color-claro);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1;
+}
+
+.icon {
+    font-size: 32px;
+    color: var(--cafe-oscuro);
+}
+
+.content p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin-top: 0.5rem;
+}

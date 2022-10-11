@@ -1,0 +1,12 @@
+.sign {
+    grid-area: rotulo;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.title {
+    color: var(--amarillo-primario);
+    margin-top: 20px;
+    font-weight: 100;
+}

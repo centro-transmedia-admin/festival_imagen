@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,opsz,wght@0,9..144,100;0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,700;0,9..144,900;1,9..144,100;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,700;1,9..144,900&display=swap');
+
+:root {
+    --amarillo-primario: #ffffff;
+    --naranja-primario: #3fb398;
+    --color-claro: #ffffff;
+    --color-oscuro: #000000;
+    --cafe-oscuro: #000000;
+    --cafe-claro: #3fb398;
+}
+
+html,
+body {
+    font-family: "Anton", sans-serif;
+    background-color: var(--cafe-oscuro);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 100;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 100;
+    color: var(--cafe-oscuro);
+}
+
+h4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+}
+
+img {
+    object-fit: fill;
+}
+
+pre {
+    white-space: pre-wrap;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin-top: 0.5rem;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.popup-content {
+    width: 90% !important;
+    height: 80vh !important;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: var(--color-claro);
+}
+
+@media (prefers-color-scheme: dark) {
+    html {
+        color-scheme: dark;
+    }
+
+    body {
+        color: white;
+        background: black;
+    }
+}

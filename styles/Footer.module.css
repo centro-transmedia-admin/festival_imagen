@@ -1,0 +1,11 @@
+.credits {
+    grid-area: footer;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.logos {
+    max-width: 500px;
+    width: 100%;
+    margin-top: 10px;
+}
