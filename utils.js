@@ -29,6 +29,6 @@ const getImgUri = (initialUri) => {
     return `https://drive.google.com/uc?export=view&id=${fileId}`;
 }
 
-const HOST = process.env.NODE_ENV === "development" ? "http://localhost:3000" : "https://fiac.vercel.app";
+const HOST = process.env.NODE_ENV === "development" ? "http://localhost:3000" : "https://imagenfest.vercel.app/";
 
 export { days, months, FILE_ID, sheets, createUri, getImgUri, HOST, capitalize };
